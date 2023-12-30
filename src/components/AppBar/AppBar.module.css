@@ -1,0 +1,39 @@
+.header {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.logoBox {
+  height: 5rem;
+}
+
+.logo {
+  transform: scale(0.6);
+  transform-origin: top left;
+  margin-top: 20px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5rem;
+}
+
+.navMenuList {
+  display: flex;
+  gap: 20px;
+}
+
+.navItem {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  width: 60px;
+  text-align: center;
+}
+
+.navItem:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
