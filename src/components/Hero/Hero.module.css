@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroBgImg {
+  width: 300px;
+  top: 20px;
+  position: relative;
+}
+
+.curv {
+  width: 100vw;
+  height: 120px;
+}
+
+.descriptionBox {
+  text-align: center;
+  background-color: var(--bg-color);
+  width: 100vw;
+  color: #fff;
+}
+
+.descriptionHeading {
+  font-family: "Raleway";
+  font-weight: 700;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 90%;
+  line-height: 36px;
+}
+
+.description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.9em;
+  width: 80%;
+  margin: auto;
+  max-width: 30rem;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.getStartedBtn {
+  font-family: "Open Sans";
+  background: rgb(101,226,217);
+  background: linear-gradient(126deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 94%); 
+  border: none;
+  border-radius: 80px;
+  width: 200px;
+  font-weight: 700;
+  color: #fff;
+  height: 50px;
+  width: 70%;
+  max-width: 15rem;
+}

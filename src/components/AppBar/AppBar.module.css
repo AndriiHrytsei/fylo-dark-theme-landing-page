@@ -5,6 +5,7 @@
 
 .logoBox {
   height: 5rem;
+  text-align: center;
 }
 
 .logo {
@@ -21,16 +22,17 @@
 }
 
 .navMenuList {
+  gap: 10px;
   display: flex;
-  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .navItem {
   color: #fff;
   font-family: 'Raleway', sans-serif;
-  box-sizing: border-box;
   width: 60px;
   text-align: center;
+  font-size: 0.9em;
 }
 
 .navItem:hover {
