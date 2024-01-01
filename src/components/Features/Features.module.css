@@ -1,0 +1,40 @@
+.features {
+  width: 100vw;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.featureslist {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 150px;
+  row-gap: 60px;
+}
+
+.featuresItem {
+  color: #fff;
+}
+
+.featuresItem h2 {
+  font-family: "Raleway";
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.featuresItem p {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  width: 80%;
+  max-width: 20rem;
+  margin: 20px auto;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1020px) {
+  .featureslist{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    padding: 150px 110px 0 110px;
+  }
+}
