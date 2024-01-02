@@ -2,12 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("../../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100vw 320px;
 }
 
-.heroBgImg {
-  width: 300px;
-  top: 20px;
-  position: relative;
+.heroImg {
+  width: 90%;
+  max-width: 38rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .curv {
@@ -17,7 +22,7 @@
 
 .descriptionBox {
   text-align: center;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   width: 100vw;
   color: #fff;
 }
@@ -54,13 +59,17 @@
   height: 50px;
   width: 70%;
   max-width: 15rem;
-  /* transition: background-color 0.`5s ease-in-out; */
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
-  
+  transition: background-color 0.3s linear;
 }
 
 .getStartedBtn:hover {
   background: rgb(101,226,217);
 }
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url("../../images/bg-curvy-desktop.svg");
+    background-size: 100vw 400px;
+  }
+}
+

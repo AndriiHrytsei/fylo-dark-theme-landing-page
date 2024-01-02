@@ -4,9 +4,8 @@ import css from "./Hero.module.css"
 
 const Hero = () => (
   <section className={css.hero}>
-    <img src={hero} alt="intro image" className={css.heroBgImg} />
-    {/* <Curv className={css.curv}/> */}
-    <img src={curv} alt="A beautiful curv" className={css.curv}/>
+    <img src={hero} alt="intro image" className={css.heroImg} />
+    {/* <img src={curv} alt="A beautiful curv" className={css.curv}/> */}
     <div className={css.descriptionBox}>
       <h1 className={css.descriptionHeading}>
         All your files in one secure location, accessible anywhere
