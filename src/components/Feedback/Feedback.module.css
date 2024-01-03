@@ -1,0 +1,73 @@
+.feedback {
+  background-color: var(--bg-color);
+  color: #fff;
+}
+
+.feedbackList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 200px;
+  background-image: url("../../images/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position: 30px 175px;
+  background-size: 30px 25px;
+  width: fit-content;
+  margin: 0 auto;
+  width: 23.43rem;
+  /* 
+  23.43rem - mobile 
+     56.25rem - tablet
+     85rem - laptop 
+     */
+}
+
+.comment {
+  background-color: var(--sign-up-color);
+  font-family: "Raleway";
+  font-size: 0.8em;
+  line-height: 24px;
+  width: 90%;
+  max-width: 27.5rem;
+  min-height: 10rem;
+  padding: 30px 20px 0 20px;
+}
+
+.userInfo {
+  display: grid;
+  grid-template-columns: 60px 150px;
+  grid-template-rows: 50px 50px;
+}
+
+.userImage {
+  grid-row: span 2;
+  width: 3rem;
+  border-radius: 100px; 
+  align-self: center;
+}
+
+.userName {
+  align-self: flex-end;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.userDescription {
+  font-size: .72em;
+  font-family: "Raleway";
+}
+
+@media screen and (min-width: 900px) {
+  .feedbackList {
+    width: 57rem;
+    background-size: 40px 35px;    
+    background-position: 0px 170px;
+  }
+
+}
+@media screen and (min-width: 1360px) {
+  .feedbackList {
+    width: 86rem;
+  }
+}

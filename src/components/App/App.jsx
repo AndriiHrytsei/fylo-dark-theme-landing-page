@@ -1,8 +1,9 @@
 import AppBar from '../AppBar/AppBar'
-import Features from '../Features/Features'
-import Hero from '../Hero/Hero'
-import StayProductive from "../StayProductive/StayProductive"
 import Main from '../Main/Main'
+import Hero from '../Hero/Hero'
+import Features from '../Features/Features'
+import StayProductive from "../StayProductive/StayProductive"
+import Feedback from '../Feedback/Feedback'
 import './App.css'
 
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Features />
         <StayProductive />
+        <Feedback />
       </Main>
     </>
   )

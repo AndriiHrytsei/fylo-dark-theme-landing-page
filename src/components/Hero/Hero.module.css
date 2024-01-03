@@ -33,6 +33,7 @@
   margin: 0 auto;
   margin-bottom: 30px;
   width: 90%;
+  max-width: 60rem;
   line-height: 36px;
 }
 
@@ -41,8 +42,8 @@
   font-weight: 400;
   font-size: 0.9em;
   width: 80%;
+  max-width: 28rem;
   margin: auto;
-  max-width: 30rem;
   margin-bottom: 30px;
   line-height: 24px;
 }
@@ -70,6 +71,10 @@
   .hero {
     background-image: url("../../images/bg-curvy-desktop.svg");
     background-size: 100vw 400px;
+  }
+  .descriptionHeading {
+    font-size: 3em;
+    line-height: 70px;
   }
 }
 
