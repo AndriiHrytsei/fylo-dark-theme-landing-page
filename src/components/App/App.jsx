@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero'
 import Features from '../Features/Features'
 import StayProductive from "../StayProductive/StayProductive"
 import Feedback from '../Feedback/Feedback'
+import GetEarlyAccess from '../GetEarlyAccess/GetEarlyAccess'
 import './App.css'
 
 
@@ -16,6 +17,7 @@ function App() {
         <Features />
         <StayProductive />
         <Feedback />
+        <GetEarlyAccess />
       </Main>
     </>
   )
