@@ -16,11 +16,6 @@
   width: fit-content;
   margin: 0 auto;
   width: 23.43rem;
-  /* 
-  23.43rem - mobile 
-     56.25rem - tablet
-     85rem - laptop 
-     */
 }
 
 .comment {
@@ -32,6 +27,7 @@
   max-width: 27.5rem;
   min-height: 10rem;
   padding: 30px 20px 0 20px;
+  border-radius: 5px;
 }
 
 .userInfo {

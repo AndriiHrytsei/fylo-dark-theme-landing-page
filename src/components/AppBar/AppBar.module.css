@@ -6,13 +6,13 @@
 
 .logoBox {
   height: 5rem;
-  text-align: center;
+  justify-self: center;
 }
 
 .logo {
   transform: scale(0.6);
   transform-origin: top left;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .navMenu {
@@ -23,8 +23,8 @@
 }
 
 .navMenuList {
-  column-gap: 10px;
   display: flex;
+  column-gap: 10px;
 }
 
 .navItem {
@@ -32,7 +32,7 @@
   font-family: 'Raleway', sans-serif;
   width: 60px;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.9em; 
 }
 
 .navItem:hover {
