@@ -2,6 +2,7 @@
   background-color: var(--footer-bg-color);
   color: #fff;
   padding-top: 280px;
+  font-family: "Open Sans";
 }
 
 .footerLogo {
