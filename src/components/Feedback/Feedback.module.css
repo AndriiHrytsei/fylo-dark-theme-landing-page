@@ -15,7 +15,6 @@
   background-size: 30px 25px;
   width: fit-content;
   margin: 0 auto;
-  width: 23.43rem;
 }
 
 .comment {
@@ -30,10 +29,13 @@
   border-radius: 5px;
 }
 
+
+
 .userInfo {
   display: grid;
   grid-template-columns: 60px 150px;
   grid-template-rows: 50px 50px;
+  width: 90%;
 }
 
 .userImage {
