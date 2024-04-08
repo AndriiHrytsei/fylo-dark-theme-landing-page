@@ -1,12 +1,11 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0 10px 0 16px;
+  display: flex;
+  justify-content: space-around;  
 }
 
 .logoBox {
   height: 5rem;
-  justify-self: center;
+  width: 35%;
 }
 
 .logo {
@@ -24,7 +23,8 @@
 
 .navMenuList {
   display: flex;
-  column-gap: 10px;
+  column-gap: 7px;
+  flex-wrap: wrap;
 }
 
 .navItem {
